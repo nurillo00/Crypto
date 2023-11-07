@@ -1,0 +1,87 @@
+.footer {
+
+
+    .footer_wrap {
+        display: flex;
+
+        .footer_h5 {
+            color: #FFF;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-decoration-line: strikethrough;
+            text-transform: capitalize;
+        }
+
+
+        .nfts_item {
+
+            .link {
+                margin-bottom: 20px;
+                font-size: 25px;
+                font-weight: 700;
+            }
+
+            a {
+                margin-bottom: 22px;
+                color: #FFF;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-transform: capitalize;
+            }
+        }
+
+        .footer_link {
+            margin-bottom: 10px;
+            color: #FFF;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: capitalize;
+        }
+
+        .input {
+            position: relative;
+        }
+
+        input {
+            width: 253px;
+            height: 60px;
+            padding: 18px 12px;
+            border: none;
+            border-radius: 50px;
+            background: #3B7C70;
+        }
+
+        input::placeholder {
+            width: 100%;
+            outline: none;
+            color: #FFF;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: capitalize;
+        }
+
+        .footer_btn {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            padding: 19px 20px;
+            border: none;
+            border-radius: 50px;
+            background: #262E48;
+            color: #FFF;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: capitalize;
+        }
+    }
+}

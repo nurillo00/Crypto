@@ -1,0 +1,115 @@
+.buy {
+margin-bottom: 50px;
+
+    .buy_wrap {
+        display: flex;
+        align-items: center;
+        gap: 0 18px;
+
+        .buy_text {
+            width: 547px;
+            text-align: start;
+
+            h3 {
+                color: #FFF;
+                font-size: 60px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 73px;
+            }
+
+            h2 {
+                color: #56CAB1;
+                font-size: 60px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 73px;
+            }
+
+            h4 {
+
+                text-align: start;
+                color: #4C99BB;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 31px;
+
+            }
+
+            h5 {
+                margin-bottom: 7px;
+                color: #FFF;
+                font-size: 50px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                text-transform: capitalize;
+            }
+
+            .buy_btn {
+                width: 126px;
+                height: 68px;
+                margin-bottom: 40px;
+                position: relative;
+                background: none;
+                border-radius: 16px;
+                border: 1px solid #56CAB1;
+                color: #FFF;
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                text-transform: capitalize;
+
+                img {
+                    content: "";
+                    position: absolute;
+                    top: -5px;
+                    right: 4px;
+                }
+            }
+
+            .buy_btn:hover {
+                opacity: 0.6;
+
+            }
+
+            .buy_btn:active {
+                opacity: 0.3;
+            }
+        }
+
+
+    }
+
+    .list {
+        margin-left: 460px;
+
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 19px 50px;
+            flex-wrap: wrap;
+            width: 521px;
+            height: 132px;
+            padding: 18px 30px 20px 25px;
+            // margin-bottom: 221px;
+            border-radius: 18px;
+            background: #3A5B6A;
+        }
+
+        li {
+
+
+            a {
+                color: #FFF;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                text-transform: capitalize;
+            }
+        }
+    }
+}

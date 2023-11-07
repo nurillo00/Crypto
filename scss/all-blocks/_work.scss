@@ -1,0 +1,44 @@
+.work {
+
+    .work_box {
+        width: 1063px;
+        height: 378px;
+        padding: 25px 360px 50px 360px;
+        margin-bottom: 262px;
+        border-radius: 20px;
+        background: linear-gradient(97deg, #1F143B -19.45%, #3C8273 103.56%);
+
+        h4 {
+            width: 260px;
+            margin-bottom: 40px;
+            color: #FFF;
+            text-align: center;
+            font-size: 60px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 60px;
+        }
+
+        a {
+            width: 344px;
+            height: 85px;
+            padding: 13px 78px;
+            border-radius: 50px;
+            background: #000;
+            color: #FFF;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 60px;
+            text-transform: uppercase;
+        }
+
+        a:hover {
+            opacity: 0.6;
+        }
+
+        a:active {
+            opacity: 0.3;
+        }
+    }
+}

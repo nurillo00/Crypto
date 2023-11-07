@@ -1,0 +1,56 @@
+.info {
+      
+
+    h3 {
+        margin-bottom: 8px;
+        color: #FFF;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    
+
+    
+
+    .info_box {
+        width: 1065px;
+        height: 125px;
+        position: relative;
+        padding: 45px 70px 44px 63px;
+        margin-bottom: 197px;
+        border: 1px solid #5BD2BD;
+        background: #23263C;
+       
+        
+        .box-shadow {
+            content: "";
+            position: absolute;
+            bottom:  -11px;
+            left: -10px;
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 0 138px;
+        }
+
+        li {
+
+            a {
+                color: #FFF;
+                text-align: center;
+                font-size: 27px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                text-transform: capitalize;
+            }
+        }
+
+        
+    }
+}

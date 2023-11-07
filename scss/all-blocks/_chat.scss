@@ -1,0 +1,113 @@
+.chat {
+
+
+    .chat_p-1 {
+        margin-bottom: 5px;
+        text-align: center;
+        color: #5BD2BF;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .chat_h4-1 {
+        width: 427px;
+        margin-bottom: 148px;
+        color: #FFF;
+        text-align: center;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+
+    .chat_list {
+        display: flex;
+        align-items: center;
+        gap: 0 15px;
+        margin-bottom: 208px;
+    }
+
+    .chat_item {
+        width: 345px;
+        height: 360px;
+        padding: 83px 8px 75px 30px;
+        position: relative;
+        border-radius: 10px;
+        background: #24293F;
+
+
+        .chat_img {
+            position: absolute;
+            top: -80px;
+            left: 110px;
+        }
+
+        h4 {
+            margin-bottom: 27px;
+            color: #FFF;
+            text-align: center;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: capitalize;
+        }
+
+        p {
+            width: 302px;
+            color: #FFF;
+            text-align: center;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: capitalize;
+        }
+
+
+    }
+
+    .chat_item-2 {
+        width: 345px;
+        height: 360px;
+        padding: 83px 0px 75px 0px;
+        position: relative;
+        border-radius: 10px;
+        background: #24293F;
+
+
+        .chat_img {
+            position: absolute;
+            top: -80px;
+            left: 90px;
+        }
+
+        h4 {
+            margin-bottom: 27px;
+            color: #FFF;
+            text-align: center;
+            font-size: 38px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: capitalize;
+        }
+
+        p {
+            width: 302px;
+            color: #FFF;
+            text-align: center;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: capitalize;
+        }
+
+    }
+
+}

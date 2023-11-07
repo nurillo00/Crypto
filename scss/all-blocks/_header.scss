@@ -1,0 +1,37 @@
+.header {
+    padding: 92px 187px 5px 192px;
+    margin-bottom: 130px;
+
+    .header_wrap {
+        display: flex;
+        align-items: center;
+        gap: 0 554px;
+
+        h4 {
+            color: #FFF;
+            text-align: center;
+            font-size: 27px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: capitalize;
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 0 50px;
+
+        }
+
+        a {
+            color: #FFF;
+            text-align: center;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: capitalize;
+        }
+    }
+}

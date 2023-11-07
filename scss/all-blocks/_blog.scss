@@ -1,0 +1,44 @@
+.blog {
+
+
+    .blog_wrap {
+        display: flex;
+        align-items: center;
+        height: 908px;
+        background-image: url("/assets/img/maymun-2.png");
+        background-repeat: no-repeat;
+        background-position: 395px 60px;
+        background-size: 380px 467px;
+    }
+
+    .blog_text {
+        h3 {
+            width: 465px;
+            margin-bottom: 59px;
+            color: #FFF;
+            font-size: 60px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+            text-transform: capitalize;
+        }
+
+        a {
+            width: 450px;
+            height: 96px;
+            padding: 16px 63px;
+            border-radius: 100px;
+            border: 3px solid rgba(84, 197, 173, 0.95);
+            background: #1F143B;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            color: #56CAB1;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: capitalize;
+        }
+    }
+
+    
+}

@@ -1,0 +1,38 @@
+@import "./fonts.scss";
+@import "./generals.scss";
+@import "./container.scss";
+@import "./all-blocks/all-blocks.scss";
+
+* {
+    margin: 0 auto;
+    padding: 0 20;
+    box-sizing: border-box;
+}
+
+body {
+    background: #02061A;
+    font-family: 'Outfit', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    display: inline-block;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: 1060px;
+    margin: 0 auto;
+    padding: 0 20;
+}
